@@ -50,7 +50,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
     height: 508px;
 }
 
@@ -90,7 +90,7 @@ select {
     /* Стили для маркированного списка во второй секции */
     list-style: none;
     list-style-image: url("./images/Vector.png");
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -100,7 +100,7 @@ select {
     list-style: none;
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -148,6 +148,7 @@ table {
     /* Стили для таблицы */
     width: 300px;
     height: 196px;
+    font-size: 14px;
     border: 1px solid #95a1bb;
     border-collapse: collapse;
 }
@@ -159,9 +160,8 @@ th, td {
 }
 th{
     font-weight: 700;
-    font-size: 14px;
     text-align: center;
-    padding: 12px 11px;
+    padding: 12px 15px;
 }
 
 .points{
@@ -170,8 +170,7 @@ th{
 
 td{
     font-weight: 400;
-    font-size: 14px;
-    padding: 11px 0 12px 15px;
+    padding: 12px 15px;
 }
 
 tr{
@@ -184,7 +183,7 @@ footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 0px 27px 1px;
+    padding: 26px 0px;
 }
 
 .footer-link {
